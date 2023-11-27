@@ -1,15 +1,16 @@
-import { createSignal } from "solid-js";
-import solidLogo from "./assets/solid.svg?url";
-import viteLogo from "/vite.svg?url";
+// import { createSignal } from "solid-js";
+// import solidLogo from "./assets/solid.svg?url";
+// import viteLogo from "/vite.svg?url";
 import "./App.css";
 import "./index.css";
+import { SkillTree } from "./components/SkillTree/SkillTree";
 
 function App() {
-  const [count, setCount] = createSignal(0);
+  // const [count, setCount] = createSignal(0);
 
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} class="logo" alt="Vite logo" />
         </a>
@@ -28,7 +29,8 @@ function App() {
       </div>
       <p class="read-the-docs">
         Click on the Vite and Solid logos to learn more
-      </p>
+      </p> */}
+      <SkillTree />
     </>
   );
 }

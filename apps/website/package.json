@@ -12,9 +12,11 @@
   "dependencies": {
     "@astrojs/check": "0.3.1",
     "@astrojs/solid-js": "3.0.2",
+    "@astrojs/tailwind": "^5.0.2",
     "@drc/planner-app": "workspace:^",
-    "astro": "3.5.4",
-    "solid-js": "1.8.5",
-    "typescript": "5.2.2"
+    "astro": "3.6.0",
+    "solid-js": "1.8.6",
+    "tailwindcss": "3.3.5",
+    "typescript": "5.3.2"
   }
 }
